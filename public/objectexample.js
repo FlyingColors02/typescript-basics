@@ -1,24 +1,25 @@
+"use strict";
 //it is difficult to make object type
-var users = {
+let users = {
     name: 'abc',
     age: 30,
     address: 'USA'
 };
 users.name = 'xyz'; //{ name: 'xyz', age: 30, address: 'USA' }
-var users1 = {
+let users1 = {
     name: 'lmn',
     age: 20,
     address: 'USA',
     size: 'large'
 };
 //users1.email='abc@gmail.com' //Property 'email' does not exist on type usersInterface.
-var users2 = {
+let users2 = {
     name: 'lmn',
     age: 20,
     address: 'USA',
     size: 30
 };
-var user3 = {
+let user3 = {
     name: 'lmn',
     age: 20,
     address: 'USA',

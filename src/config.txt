@@ -1,0 +1,17 @@
+//how to make a config file 
+tsc --init
+
+u wil get tsconfig.json file
+
+//if u want to have all output file in one folder
+in tsconfig.json file uncomment // "rootDir": "./", this folder tells which by-default folder need to be converted
+
+"rootDir": "./src", type src
+
+then uncomment // "outDir": "./",  which folder u want for output file 
+
+example i want public folder to have output files
+"outDir": "./public", 
+
+on cmd
+	tsc  //this will auto generate folder and files

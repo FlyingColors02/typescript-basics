@@ -1,3 +1,4 @@
+"use strict";
 function Cals() {
     return 10 + 10; //default
 }
