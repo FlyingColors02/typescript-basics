@@ -15,3 +15,8 @@ example i want public folder to have output files
 
 on cmd
 	tsc  //this will auto generate folder and files
+
+..consider if u have .ts file out of src folder, typescript compiler will get confuse and create a js file in public folder i.e its covert the rootDir in public folder
+to solve this
+>>> in tsconfig.json file write
+"include":['src'] //this will exclude other folder, js file won't be created for file not included in src

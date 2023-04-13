@@ -21,4 +21,4 @@ class demo {
 }
 exports.default = demo;
 let demoObject1 = new demo();
-console.log(demoObject1[demoS1]()); //some data
+// console.log(demoObject1[demoS1]); //some data
