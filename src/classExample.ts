@@ -1,5 +1,5 @@
 class Example{
-	constructor(params){
+	constructor(params:string){
 		
 		console.log("constructor called",params);
 		
@@ -24,7 +24,7 @@ exampleObject.getName();
 
 class Example1{
 	name:string='abc'; //property
-	constructor(params){ //function
+	constructor(params:string){ //function
 		this.name=params;
 		console.log("constructor called",this.name);
 		

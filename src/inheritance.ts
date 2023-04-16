@@ -1,7 +1,8 @@
 export{}
 class ParentClass{
-	name;
-	setName(name){
+  
+		name='abc';
+	setName(name:string){
 		this.name=name;
 	}
 }

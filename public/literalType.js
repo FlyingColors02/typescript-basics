@@ -9,5 +9,16 @@ function combine(a, b) {
         return a.toString() + b.toString();
     }
 }
-console.log(combine(10, 20));
-console.log(combine('abc', 'def'));
+console.log(combine(10, 20)); //30
+console.log(combine('abc', 'def')); //abcdef
+let type;
+function combine1(a, b, type) {
+    if (type == 'number') {
+        return (+a) + (+b);
+    }
+    else {
+        return a.toString() + b.toString();
+    }
+}
+console.log(combine1(10, 20, 'number')); //30
+console.log(combine1('abc', 'def', 'string')); //abcdef
